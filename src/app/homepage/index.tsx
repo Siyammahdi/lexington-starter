@@ -8,7 +8,7 @@ import Pricing from './Pricing';
 
 const Homepage = () => {
     return (
-        <div className='space-y-40 mx-6'>
+        <div className='space-y-20 md:space-y-40 mx-5'>
             <Banner />
             <Features />
             <CoursesSection />
