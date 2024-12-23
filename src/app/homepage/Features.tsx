@@ -58,11 +58,11 @@ const Features: React.FC = () => {
     ];
 
     return (
-        <section className=" text-gray-100">
+        <section className=" text-gray-100 pt-32">
             <div className="max-w-6xl mx-auto space-y-2">
                 <div className='bg-gradient-to-b from-black to-neutral-800 rounded-3xl border border-neutral-800'>
                     <div className="bg-gradient-to-b from-neutral-950 to-neutral-800 rounded-2xl border border-neutral-800 shadow-md m-[6px] text-center space-y-4 ">
-                        <div className='w-1/3 mx-auto py-10'>
+                        <div className='md:w-1/3 mx-auto py-10'>
                             <GradientTitle text='Empowering learning experiences' />
                             <p className="text-neutral-400">Discover the features that make our platform your ultimate learning companion.</p>
                         </div>

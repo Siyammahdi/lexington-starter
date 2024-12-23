@@ -9,10 +9,10 @@ const CoursesSection: React.FC = () => {
     return (
         <section className="g-gradient-to-b from-black to-neutral-800 rounded-3xl border border-neutral-800 text-white">
             <div className='bg-gradient-to-b from-black to-neutral-800 rounded-3xl border border-neutral-800 m-[6px]'>
-                <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 p-10 ">
+                <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12 p-5 lg:p-10 ">
                     {/* Left Section */}
                     <div>
-                        <GradientTitle className="text-5xl" text="Explore our most popular courses" />
+                        <GradientTitle className="text-2xl md:text-3xl lg:text-5xl" text="Explore our most popular courses" />
                         <p className="text-neutral-400 text-lg mb-8">
                             Dive into courses loved by learners worldwide
                         </p>

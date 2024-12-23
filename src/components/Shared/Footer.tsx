@@ -4,12 +4,12 @@ import logo from '../../../public/assets/logo.svg'
 
 const Footer = () => {
     return (
-        <footer className="max-w-5xl mx-auto text-white pb-20 pt-40">
+        <footer className="max-w-5xl mx-auto text-white pb-20 pt-40 px-5">
 
 
             <div className='bg-gradient-to-b from-black/70 to-neutral-800/70 rounded-3xl border border-neutral-800'>
                 <div className="bg-gradient-to-b from-neutral-900/30 to-neutral-800/30 rounded-2xl border border-neutral-800 shadow-md m-[6px] text-left space-y-4 ">
-                    <div className="container mx-auto p-24">
+                    <div className="container mx-auto p-8 lg:p-24">
                         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
                             {/* Brand Section */}
                             <div className='flex items-center'>
