@@ -4,7 +4,7 @@ import React from "react";
 const Details = () => {
     return (
         <section className="bg-black text-white py-16">
-            <div className="container mx-auto px-6 lg:px-12">
+            <div className="container mx-auto md:px-6 lg:px-12">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Left Side - Text Content */}
                     <div>

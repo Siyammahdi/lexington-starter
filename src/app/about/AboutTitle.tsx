@@ -5,8 +5,8 @@ const AboutTitle = () => {
     return (
         <div>
             <div className="text-center">
-                <GradientTitle className="text-6xl w-2/5 mx-auto leading-none" text="The mission behind Vanta." />
-                <p className="mt-4 text-neutral-300 mx-auto w-1/3">
+                <GradientTitle className="text-2xl md:text-3xl lg:text-6xl lg:w-2/5 mx-auto leading-none" text="The mission behind Vanta." />
+                <p className="mt-4 text-neutral-300 mx-auto lg:w-1/3">
                     Your pathway to exploring brand &amp; identity design for marketers online
                 </p>
                 <div className="grid grid-cols-2 mt-12 sm:grid-cols-4 lg:grid-cols-4 justify-between text-center -ml-4">
@@ -46,7 +46,7 @@ const AboutTitle = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 py-24">
+            <div className="grid gap-x-8 gap-y-16 text-center grid-cols-3 py-24">
                 <div className="mx-auto flex max-w-xs flex-col gap-y-4">
                     <div className="leading-7 text-neutral-300">Students</div>
                     <div className="order-first text-3xl font-semibold tracking-tight text-white font-display sm:text-5xl">

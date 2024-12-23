@@ -3,7 +3,7 @@ import FAQAccordion from './Questions';
 
 const FAQ = () => {
     return (
-        <div>
+        <div className='mx-5'>
             <FAQAccordion />
         </div>
     );

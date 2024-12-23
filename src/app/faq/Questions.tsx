@@ -5,15 +5,15 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export default function FAQAccordion() {
     return (
         <div className=" text-white mt-44 flex items-center justify-center">
-            <div className="flex justify-between">
-                <div className="w-1/3">
-                    <GradientTitle className="text-6xl leading-tight" text="Frequently asked questions" />
+            <div className="flex flex-col lg:flex-row justify-between">
+                <div className="lg:w-1/3">
+                    <GradientTitle className="text-2xl md:text-3xl lg:text-6xl leading-tight" text="Frequently asked questions" />
                     <p className="text-neutral-400 mb-8">
                         Get answers to common queries about our Brand & Identity Design course. If you
                         have more questions, feel free to contact us.
                     </p>
                 </div>
-                <div className="w-1/2">
+                <div className="lg:w-1/2">
                     <Accordion type="single" collapsible className="space-y-4">
                         <AccordionItem value="item-1">
                             <AccordionTrigger>What is brand identity design?</AccordionTrigger>

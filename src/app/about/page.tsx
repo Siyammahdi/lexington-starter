@@ -5,7 +5,7 @@ import Contact from './Contact';
 
 const About = () => {
     return (
-        <div className='mt-40'>
+        <div className='mt-40 mx-5'>
             <AboutTitle />
             <Details />
             <Contact />

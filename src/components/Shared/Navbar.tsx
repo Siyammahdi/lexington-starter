@@ -8,7 +8,7 @@ import { Button } from '../ui/button';
 const Navbar = () => {
     return (
         <div className=' fixed w-full z-10 top-0 bg-black/50 backdrop-blur-md px-6'>
-            <div className='max-w-5xl mx-auto flex justify-center lg:justify-between items-center py-3'>
+            <div className='max-w-5xl mx-auto flex justify-center md:justify-between items-center py-3'>
                 <div className='hidden md:flex items-center'>
                     <Image src={logo} alt='logo' height={50} width={50} />
                     <h3 className='uppercase text-xl mt-1 text-white font-semibold'>Vanta</h3>
