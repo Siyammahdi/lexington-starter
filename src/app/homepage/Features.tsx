@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ icon, title, description }) => {
     return (
-        <div className="bg-gradient-to-b from-[#101010] to-neutral-900 p-8 border border-neutral-800 rounded-2xl shadow-sm space-y-4">
+        <div className="bg-gradient-to-b from-[#101010] to-neutral-900 p-3 md:p-8 border border-neutral-800 rounded-2xl shadow-sm space-y-4">
             <div className='p-2 bg-neutral-800 border border-neutral-700 rounded-full w-fit'>
             <div className="text-gray-200 text-xl">{icon}</div>
             </div>

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function ContactForm() {
   return (
     <div className=" text-neutral-800 min-h-screen flex items-center justify-center">
-      <div className="max-w-md w-full p-8">
+      <div className="max-w-md w-full">
         <GradientTitle className="text-4xl" text="Lets get started!" />
         <p className="text-neutral-500 mb-8">
           Complete the details below so I can process your request and then schedule a time to discuss your goals.

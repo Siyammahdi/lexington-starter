@@ -17,7 +17,7 @@ const Banner = () => {
             </div>
             <div className='flex flex-col lg:flex-row justify-between items-center h-full mt-20 lg:mt-0'>
                 <div className='lg:w-1/2'>
-                    <h1 className="w-4/5 pb-2 text-4xl leading-normal font-normal tracking-tight text-transparent bg-gradient-to-r from-neutral-50 via-neutral-400 to-neutral-600 bg-clip-text font-display">
+                    <h1 className="md:w-4/5 pb-2 text-4xl leading-normal font-normal tracking-tight text-transparent bg-gradient-to-r from-neutral-50 via-neutral-400 to-neutral-600 bg-clip-text font-display">
                         Unleash your potential
                             through seamless online
                         learning from today
