@@ -4,10 +4,10 @@ import React from 'react';
 import sponsor1 from "@/../public/assets/1.svg"
 import sponsor2 from "@/../public/assets/2.svg"
 import sponsor3 from "@/../public/assets/3.svg"
-import wid1 from "@/../public/assets/widget1.svg"
-import wid2 from "@/../public/assets/widget2.svg"
-import wid3 from "@/../public/assets/widget4.svg"
-import wid4 from "@/../public/assets/widget6.svg"
+import wid1 from "@/../public/uqi/banner1.jpg"
+import wid2 from "@/../public/uqi/banner2.jpg"
+import wid3 from "@/../public/uqi/banner3.jpg"
+import wid4 from "@/../public/uqi/banner4.jpg"
 
 const Banner = () => {
     return (

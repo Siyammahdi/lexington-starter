@@ -58,7 +58,7 @@ const Features: React.FC = () => {
     ];
 
     return (
-        <section className=" text-gray-100 pt-32">
+        <section className=" text-gray-100">
             <div className="max-w-6xl mx-auto space-y-2">
                 <div className='bg-gradient-to-b from-black to-neutral-800 rounded-3xl border border-neutral-800'>
                     <div className="bg-gradient-to-b from-neutral-950 to-neutral-800 rounded-2xl border border-neutral-800 shadow-md m-[6px] text-center space-y-4 ">
