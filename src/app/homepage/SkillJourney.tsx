@@ -7,9 +7,9 @@ const SkillJourney: React.FC = () => {
         <div className="relative text-white">
             <Image width={60} height={60} className="absolute blur-3xl w-96 inset-x-0 h-96 mx-auto bottom-12 left-0 -z-10" src="/assets/avatar1.svg" alt=""></Image>
             <div className="max-w-6xl mx-auto text-center">
-                <GradientTitle className="text-2xl md:text-3xl lg:text-5xl lg:w-2/5 mx-auto" text="A skill building journey with Vanta" />
+                <GradientTitle className="text-2xl md:text-3xl lg:text-5xl lg:w-2/5 mx-auto" text="A journey with Uqidev" />
                 <p className="text-neutral-500 text-lg mb-12">
-                    Read how Vanta helped master new skills
+                    Read how Uqidev helped master new skills
                 </p>
 
                 <div className="flex flex-col md:flex-row gap-6 items-center justify-center">

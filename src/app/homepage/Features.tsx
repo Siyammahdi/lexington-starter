@@ -27,35 +27,36 @@ const Features: React.FC = () => {
     const features = [
         {
             icon: <FiSettings />,
-            title: 'Personalized learning paths',
-            description: 'Embark on a tailored educational journey, with courses curated to match your interests, goals, and learning pace.',
+            title: 'Tailored Solutions',
+            description: 'We craft unique, client-focused digital experiences that align with your specific goals and vision.',
         },
         {
             icon: <FiMessageCircle />,
-            title: 'Interactive discussions',
-            description: 'Engage in vibrant discussions with fellow learners and educators, fostering a collaborative learning environment.',
+            title: 'Seamless Collaboration',
+            description: 'Foster transparent communication and collaboration throughout the project lifecycle for exceptional outcomes.',
         },
         {
             icon: <FiFileText />,
-            title: 'Rich multimedia content',
-            description: 'Dive into a variety of learning materials, from video lectures to interactive quizzes, ensuring an engaging experience.',
+            title: 'Rich, Dynamic Interfaces',
+            description: 'Delivering interactive and visually compelling interfaces that captivate users and enhance engagement.',
         },
         {
             icon: <FiMonitor />,
-            title: 'Anytime, anywhere access',
-            description: 'Enjoy the flexibility of learning on your schedule, accessing courses and resources seamlessly across devices.',
+            title: 'Cross-Platform Accessibility',
+            description: 'Ensure your digital presence is optimized for seamless performance across all devices and platforms.',
         },
         {
             icon: <FiActivity />,
-            title: 'Progress tracking',
-            description: 'Monitor your learning milestones and accomplishments, motivating you to stay on track and celebrate your achievements.',
+            title: 'Real-Time Progress Tracking',
+            description: 'Stay informed with regular updates and insights into project milestones and development progress.',
         },
         {
             icon: <FiUsers />,
-            title: 'Expert instructors',
-            description: 'Learn from accomplished experts and industry professionals, gaining insights from their real-world experience.',
+            title: 'Expert-Driven Development',
+            description: 'Leverage the expertise of skilled professionals committed to bringing your ideas to life with precision.',
         },
     ];
+    
 
     return (
         <section className=" text-gray-100">
@@ -63,8 +64,8 @@ const Features: React.FC = () => {
                 <div className='bg-gradient-to-b from-black to-neutral-800 rounded-3xl border border-neutral-800'>
                     <div className="bg-gradient-to-b from-neutral-950 to-neutral-800 rounded-2xl border border-neutral-800 shadow-md m-[6px] text-center space-y-4 ">
                         <div className='md:w-1/3 mx-auto py-10'>
-                            <GradientTitle text='Empowering learning experiences' />
-                            <p className="text-neutral-400">Discover the features that make our platform your ultimate learning companion.</p>
+                            <GradientTitle text='Where Ideas Meet Execution' />
+                            <p className="text-neutral-400">Transforming challenges into seamless and impactful digital experiences.</p>
                         </div>
                     </div>
                 </div>

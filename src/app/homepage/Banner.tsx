@@ -17,14 +17,11 @@ const Banner = () => {
             </div>
             <div className='flex flex-col lg:flex-row justify-between items-center h-full mt-20 lg:mt-0'>
                 <div className='lg:w-1/2'>
-                    <h1 className="md:w-4/5 pb-2 text-4xl leading-normal font-normal tracking-tight text-transparent bg-gradient-to-r from-neutral-50 via-neutral-400 to-neutral-600 bg-clip-text font-display">
-                        Unleash your potential
-                            through seamless online
-                        learning from today
+                    <h1 className=" pb-2 text-5xl leading-normal font-normal tracking-tight text-transparent bg-gradient-to-r from-neutral-50 via-neutral-400 to-neutral-600 bg-clip-text font-display">
+                        Web Solutions That Inspire Innovation
                     </h1>
-                    <p className="max-w-xs mt-4 text-neutral-400">
-                        Discover a boundless realm of knowledge and personal growth, all
-                        conclaiently accessible right at your fingertips
+                    <p className="md:w-4/5 mt-4 text-neutral-400">
+                    We bridge imagination and technology, engineering digital experiences that blend creativity, precision, and unmatched scalability
                     </p>
                     <div className='relative flex flex-col max-w-xl gap-2 mt-12 sm:flex-row'>
                         <Button className='bg-gradient-to-b from-neutral-400 via-neutral-500 to-neutral-600'>Buy Vanta</Button>

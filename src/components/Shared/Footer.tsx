@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import logo from '../../../public/assets/logo.svg'
+import logo from '@/../public/uqi/logo.svg'
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -13,8 +14,7 @@ const Footer = () => {
                         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
                             {/* Brand Section */}
                             <div className='flex items-center'>
-                                <Image src={logo} alt='logo' height={50} width={50} />
-                                <h3 className='uppercase text-xl mt-1 text-white font-semibold'>Vanta</h3>
+                                <Image src={logo} alt='logo' height={100} width={160} />
                             </div>
 
                             {/* Navigation Section */}
@@ -22,14 +22,14 @@ const Footer = () => {
                                 <h3 className="font-semibold text-lg mb-3">Navigation</h3>
                                 <ul className="space-y-2 text-sm">
                                     <li>
-                                        <a href="#" className="text-neutral-400 hover:text-white">
-                                            Overview
-                                        </a>
+                                        <Link href="/about" className="text-neutral-400 hover:text-white">
+                                            About
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#" className="text-neutral-400 hover:text-white">
-                                            Style Guide
-                                        </a>
+                                        <Link href="faq" className="text-neutral-400 hover:text-white">
+                                            Faq
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -39,14 +39,14 @@ const Footer = () => {
                                 <h3 className="font-semibold text-lg mb-3">Stay updated</h3>
                                 <ul className="space-y-2 text-sm">
                                     <li>
-                                        <a href="#" className="text-neutral-400 hover:text-white">
+                                        <Link href="#" className="text-neutral-400 hover:text-white">
                                             License
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="#" className="text-neutral-400 hover:text-white">
-                                            Documentation
-                                        </a>
+                                        <Link href="/contact" className="text-neutral-400 hover:text-white">
+                                            Contact
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -57,27 +57,25 @@ const Footer = () => {
                                 <ul className="space-y-2 text-sm">
                                     <li>
                                         <a href="https://twitter.com/lexingtonthemes" className="text-neutral-400 hover:text-white">
-                                            @lexingtonthemes
+                                            @uqidev
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://twitter.com/Mike_Andreuzza" className="text-neutral-400 hover:text-white">
-                                            @Mike_Andreuzza
+                                            @dev_syedshihab
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className=" mt-8 pt-6 text-sm text-neutral-400">
-                            <p className='mb-6'>&copy; 2022 Lexington Themes. All rights reserved</p>
+                        <div className="mt-8 pt-6 text-sm text-neutral-400">
+                            <p className="mb-6">&copy; 2022 Uqidev. All rights reserved.</p>
                             <p className="mt-2">
-                                Lexington Themes is not affiliated with Astro or Tailwind Labs team, nor is it endorsed by or sponsored by
-                                this one. A side project by{' '}
-                                <span className="text-white font-medium">Michael Andreuzza</span>. This website was built with Astro & Tailwind.
-                                Crafted in Åland Islands, Finland.
+                                Uqidev is an independent software agency with no affiliation or endorsement from organizations mentioned. This website was proudly crafted by the Uqidev team. Designed and developed with passion, wherever innovation thrives.
                             </p>
                         </div>
+
                     </div>
                 </div>
             </div>
