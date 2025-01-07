@@ -1,7 +1,10 @@
+"use client";
+
 import GradientTitle from "@/components/custom/grad-title";
 import { Button } from "@/components/ui/button";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form, Field, ErrorMessage, FormikHelpers } from "formik";
 import * as Yup from "yup";
+import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
   const validationSchema = Yup.object().shape({
@@ -18,15 +21,45 @@ export default function ContactForm() {
     projectDetails: "",
   };
 
-  const handleSubmit = (values: typeof initialValues) => {
-    console.log("Form submitted with values:", values);
-    alert("Form submitted successfully!");
+  const handleSubmit = (
+    values: typeof initialValues,
+    { setSubmitting, resetForm }: FormikHelpers<typeof initialValues>
+  ) => {
+    const templateParams = {
+      firstName: values.firstName,
+      companyName: values.companyName,
+      email: values.email,
+      projectDetails: values.projectDetails,
+    };
+  
+
+    emailjs
+      .send(
+        "service_xyjipv2", // Replace with your EmailJS service ID
+        "template_0y5zmld", // Replace with your EmailJS template ID
+        templateParams,
+        "ycgCwEGp7HO-UI5AW" // Replace with your EmailJS public key
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Form submitted successfully!");
+          resetForm();
+        },
+        (error) => {
+          console.error("FAILED...", error);
+          alert("An error occurred. Please try again.");
+        }
+      )
+      .finally(() => {
+        setSubmitting(false);
+      });
   };
 
   return (
     <div className="text-neutral-800 min-h-screen flex items-center justify-center">
       <div className="max-w-md w-full">
-        <GradientTitle className="text-4xl" text="Lets get started!" />
+        <GradientTitle className="text-4xl" text="Let's get started!" />
         <p className="text-neutral-500 mb-8">
           Complete the details below so I can process your request and then schedule a time to discuss your goals.
         </p>
@@ -37,7 +70,6 @@ export default function ContactForm() {
         >
           {({ isSubmitting }) => (
             <Form className="space-y-6">
-
               <div>
                 <label
                   htmlFor="firstName"
@@ -121,6 +153,7 @@ export default function ContactForm() {
                   className="text-red-500 text-sm mt-1"
                 />
               </div>
+
               <Button
                 type="submit"
                 disabled={isSubmitting}
