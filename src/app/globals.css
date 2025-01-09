@@ -70,3 +70,26 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #131313; 
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #242424; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #313131;
+}
+
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}

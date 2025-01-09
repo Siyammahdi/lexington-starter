@@ -8,10 +8,12 @@ const Details = () => {
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Left Side - Text Content */}
                     <div>
-                        <GradientTitle className="text-4xl" text="Learn about us" />
+                        <GradientTitle className="text-4xl" text="Learn About Us" />
                         <p className="text-neutral-400 mb-8 leading-relaxed">
-                            Elevate your skills in brand identity design with our comprehensive e-learning platform. Dive into the
-                            world of branding and discover the art of creating impactful identities that resonate with your audience.
+                            At Uqidev, we specialize in crafting cutting-edge digital solutions that empower businesses to thrive in the online world.
+                            Our goal is to bridge the gap between ideas and execution by delivering tailored web applications, modern designs,
+                            and scalable systems. We are dedicated to helping businesses enhance their digital presence and achieve their goals
+                            with innovation and precision.
                         </p>
                     </div>
 
@@ -37,27 +39,25 @@ const Details = () => {
                 {/* Bottom Section - Features */}
                 <div className="grid lg:grid-cols-3 gap-8 mt-16">
                     <div>
-                        <h3 className="text-xl mb-3">1. Make Education Accessible</h3>
+                        <h3 className="text-xl mb-3">1. Deliver Innovative Solutions</h3>
                         <p className="text-neutral-400 leading-relaxed">
-                            Dive into the world of branding and discover the art of creating impactful identities that resonate with
-                            your audience.
+                            We create cutting-edge web and software solutions that solve real-world problems and help businesses thrive in the digital era.
                         </p>
                     </div>
                     <div>
-                        <h3 className="text-xl mb-3">2. Help you Grow</h3>
+                        <h3 className="text-xl mb-3">2. Empower Business Growth</h3>
                         <p className="text-neutral-400 leading-relaxed">
-                            Embark on a tailored educational journey, with courses curated to match your interests, goals, and
-                            learning pace.
+                            Our tailored services are designed to enhance your digital presence, streamline operations, and foster long-term growth.
                         </p>
                     </div>
                     <div>
-                        <h3 className="text-xl mb-3">3. Grow a Community</h3>
+                        <h3 className="text-xl mb-3">3. Build Lasting Partnerships</h3>
                         <p className="text-neutral-400 leading-relaxed">
-                            At our e-learning platform, our mission is to empower individuals from all walks of life with the skills
-                            and knowledge.
+                            At Uqidev, we believe in collaborating with our clients to understand their needs and deliver solutions that truly make an impact.
                         </p>
                     </div>
                 </div>
+
             </div>
         </section>
     );

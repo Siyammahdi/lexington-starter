@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import logo from '@/../public/uqi/logo.svg'
 import Link from 'next/link';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
@@ -55,14 +56,37 @@ const Footer = () => {
                             <div>
                                 <h3 className="font-semibold text-lg mb-3">Socials</h3>
                                 <ul className="space-y-2 text-sm">
-                                    <li>
-                                        <a href="https://twitter.com/lexingtonthemes" className="text-neutral-400 hover:text-white">
+                                    <li className="flex items-center gap-2">
+                                        <FaTwitter className="text-neutral-400 hover:text-white" />
+                                        <a
+                                            href="https://twitter.com/lexingtonthemes"
+                                            className="text-neutral-400 hover:text-white"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
                                             @uqidev
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="https://twitter.com/Mike_Andreuzza" className="text-neutral-400 hover:text-white">
-                                            @dev_syedshihab
+                                    <li className="flex items-center gap-2">
+                                        <FaLinkedin className="text-neutral-400 hover:text-white" />
+                                        <a
+                                            href="https://linkedin.com/in/your-profile"
+                                            className="text-neutral-400 hover:text-white"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            LinkedIn
+                                        </a>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <FaGithub className="text-neutral-400 hover:text-white" />
+                                        <a
+                                            href="https://github.com/your-profile"
+                                            className="text-neutral-400 hover:text-white"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            GitHub
                                         </a>
                                     </li>
                                 </ul>
